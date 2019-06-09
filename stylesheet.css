@@ -11,6 +11,7 @@
 .centertext {
   max-width: 2000px;
   max-height: 86vh;
+  max-height: calc(var(--vh, 1vh) * 86);
   position: fixed;
   margin-left: 50%;
   margin-top: 5vh;
