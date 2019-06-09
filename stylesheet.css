@@ -5,4 +5,23 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 1,
+}
+
+.centertext {
+  max-width: 2000px;
+  max-height: 86vh;
+  position: fixed;
+  margin-left: 50%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  transform: translate(-50%);
+  overflow: hidden;
+}
+
+.soontext {
+  color: #FFF;
+  font-family: 'Special Elite', cursive;
+  font-size: 2vh;
+
 }
