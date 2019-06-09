@@ -25,3 +25,10 @@
   font-size: 2vh;
 
 }
+
+html,
+body {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
